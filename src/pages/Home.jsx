@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div className="container">
       <h1>MoonFall Software</h1>
-      <h2>Text</h2>
       <h3>Home</h3>
     </div>
   )

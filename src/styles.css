@@ -23,10 +23,6 @@ h1 {
   padding-top: 0;
 }
 
-h2 {
-  color: #301B3F;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -44,7 +40,7 @@ h2 {
   color: #B4A5A5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 16px;
   position: fixed;
   top: 0;
@@ -71,5 +67,30 @@ h2 {
 }
 
 .nav-link:hover {
+  color: #3C415C;
+}
+
+.active-link:hover {
+  color: #3C415C;
+}
+
+.active-link {
+  border-bottom: 2px solid #B4A5A5;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
+  margin-left: 16px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #B4A5A5;
+  transition: color 0.3s;
+}
+
+.icon:hover {
   color: #3C415C;
 }
