@@ -4,7 +4,7 @@ const Software = () => {
   return (
     <>
       <h1>MoonFall Software</h1>
-      <h3>Software</h3>
+      <h2>Software</h2>
     </>
   )
 };

@@ -18,7 +18,15 @@ html, body, #root {
 }
 
 h1 {
+  font-size: 72px;
   color: #3C415C;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h2 {
+  font-size: 50px;
+  color: #B4A5A5;
   margin-top: 0;
   padding-top: 0;
 }
@@ -104,4 +112,45 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.game-card {
+  display: flex;
+  justify-content: space-evenly;
+  color: #B4A5A5;
+  padding: 60px;
+  border-bottom: 2px solid #301B3F;
+  max-width: 50%;
+}
+
+.game-poster {
+  height: 300px;
+  max-width: 50%;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.game-card-text {
+  max-width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.game-link {
+  align-self: center;
+  background-color: #3C415C;
+  text-decoration: none;
+  color: #B4A5A5;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 24px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-top: auto;
+}
+
+.game-link:hover {
+  background-color: #4F5D75;
 }

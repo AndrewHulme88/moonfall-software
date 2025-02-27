@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="container">
       <h1>MoonFall Software</h1>
-      <h3>Home</h3>
+      <h2>Home</h2>
     </div>
   )
 };
