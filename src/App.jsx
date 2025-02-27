@@ -6,6 +6,7 @@ import Games from "./pages/Games.jsx";
 import Software from "./pages/Software.jsx";
 import About from "./pages/About.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/software" element={<Software />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </>
   )
 }
