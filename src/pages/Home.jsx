@@ -13,7 +13,7 @@ const Home = () => {
       <div className="home-container-games">
         <h2>MoonFall Software Games</h2>
         <img src="/images/EliPoster.png" alt="EliPoster" className="home-game-image"/>
-        <p>CHeck out the original game jam version in your browser free:</p>
+        <p>Check out the original game jam version in your browser free:</p>
         <a href="https://moonfallsoftware.itch.io/elis-odyssey-brackeysjam" className="game-link" target="_blank" rel="noopener noreferrer">Eli's Odyssey</a>
       </div>
     </div>

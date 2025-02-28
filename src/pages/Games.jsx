@@ -13,7 +13,6 @@ const Games = () => {
           <p>The original game jam version is available to play free in the browser, check it out below.</p>
           <a href="https://moonfallsoftware.itch.io/elis-odyssey-brackeysjam" className="game-link" target="_blank" rel="noopener noreferrer">Eli's Odyssey</a>
         </div>
-
       </div>
     </>
   )
