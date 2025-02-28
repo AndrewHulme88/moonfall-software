@@ -17,6 +17,10 @@ html, body, #root {
   font-family: "Roboto-Family", sans-serif;
 }
 
+.logo {
+  height: 300px;
+}
+
 h1 {
   font-size: 72px;
   color: #3C415C;
